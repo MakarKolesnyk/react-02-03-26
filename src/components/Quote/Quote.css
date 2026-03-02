@@ -1,0 +1,22 @@
+.quote{
+    border: 2px solid black;
+    width: 90%;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgb(220, 220, 220);
+}
+
+.quote >blockquote{
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.quote > p{
+    font-weight: 700;
+    text-align: right;
+}
