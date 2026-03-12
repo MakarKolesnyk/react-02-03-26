@@ -1,9 +1,9 @@
-import Heros from "./components/Heros/Heros";
+import PizzaConstructor from "./components/PizzaConstructor/PizzaConstructor";
 
 function App() {
   return (
     <>
-      <Heros />
+      <PizzaConstructor />
     </>
   );
 }

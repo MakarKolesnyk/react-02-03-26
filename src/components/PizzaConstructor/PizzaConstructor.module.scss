@@ -1,0 +1,86 @@
+$main-orange: #e94b00;
+$border-orange: #f2a23a;
+$bg: #f6efe4;
+$card-bg: #f4e6cf;
+
+section {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: $card-bg;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+
+  h2 {
+    text-align: center;
+    color: $main-orange;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    fieldset {
+      border: 2px solid $border-orange;
+      border-radius: 8px;
+      padding: 12px 15px;
+      background: $bg;
+
+      legend {
+        color: $main-orange;
+        font-weight: bold;
+        padding: 0 5px;
+      }
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+    }
+  }
+  label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  select,
+  input {
+    width: 100%;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+
+  button {
+    background: $main-orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+}
+article {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid $border-orange;
+  border-radius: 8px;
+  background: $bg;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+}
