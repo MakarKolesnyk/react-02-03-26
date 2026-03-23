@@ -62,7 +62,7 @@ const PizzaConstructor = () => {
   );
   if (isOrder) {
     return (
-      <article>
+      <article className={styles.order}>
         <h2>Ваше замовлення:</h2>
         <p>Розмір: {selectSize}см</p>
         <p>
@@ -76,7 +76,7 @@ const PizzaConstructor = () => {
     );
   }
   return (
-    <section>
+    <section className={styles.constructor}>
       <h2>Конструктор піци</h2>
       <form
         onSubmit={() => {

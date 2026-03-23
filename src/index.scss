@@ -1,10 +1,12 @@
+@use "/src/assets/common/mixins" as *;
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -13,6 +15,10 @@ a {
   text-decoration: none;
 }
 
-section:has(.emoji){
+section:has(.emoji) {
   text-align: center;
+}
+
+main {
+  @include wrapper();
 }

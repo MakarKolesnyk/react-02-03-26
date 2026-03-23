@@ -1,9 +1,6 @@
-$main-orange: #e94b00;
-$border-orange: #f2a23a;
-$bg: #f6efe4;
-$card-bg: #f4e6cf;
+@use "/src/assets/common/colors" as *;
 
-section {
+.constructor {
   max-width: 500px;
   margin: 40px auto;
   padding: 25px;
@@ -69,7 +66,7 @@ section {
     transition: 0.2s;
   }
 }
-article {
+.order {
   margin-top: 20px;
   padding: 15px;
   border: 2px solid $border-orange;
